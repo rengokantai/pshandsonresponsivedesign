@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/reset.css"/>
-</head>
+    <link rel="stylesheet" href="css/phone-default.css"/>
+    <link rel="stylesheet" href="css/desktop.css"/>
+    <link rel="stylesheet" href="css/tablet.css"/>
+
+    <meta name="viewport" content="width=device=width, initial-scale=1, maximum-scale=1">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/hideMenu.js"></script>
 <body>
 <div id="headerWrapper">
     <header>
@@ -15,8 +20,16 @@
 </div>
 
 <div id="navWrapper">
+    <button id="showPhoneNav"></button>
 
-    <nav>xx</nav>
+    <nav>
+        <ul class="clearfix" id="myNav">
+            <li><a href="index.html">SPECIALS</a></li>
+            <li><a href="">FLAVORS</a></li>
+            <li><a href="">SCHEDULE</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
 </div>
 
 

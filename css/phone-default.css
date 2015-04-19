@@ -1,0 +1,89 @@
+html{
+    -webkit-text-size-adjust: none;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#headWrapper{
+    background-color: #3B4044;
+}
+
+header{
+    padding:1em 2% .5em 2%;
+}
+
+header h1{
+    font-size: 2.1em;
+    color: #fff;
+}
+
+header h2{
+    margin-top:.75em;
+}
+
+
+#navWrapper{
+    background-color: aqua;
+    padding:.75em 2%;
+}
+
+button#showPhoneNav{
+
+    color:#fff;
+    font-weight: 600;
+    display: block;
+    border: 1px solid #222;
+    border-raduis: 1.5em;
+    background-color: rgba(0,0,0,0.6);
+    width:100%;
+    padding:.75em 0;
+
+}
+
+nav ul{
+    border:1px #ccc solid;
+
+
+}
+
+nav ul li{
+    margin: 0 2%;
+    width: 46%;
+    float:left;
+}
+
+nav ul li a{
+    display:block;
+    text-align: center;
+    font-weight:600;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.16);
+    margin: .2em 0;
+    padding: .6em 0;
+    border-radius: 1em;
+}
+
+nav ul li:first-child a{
+    border-top:none;
+}
+
+footer{
+    clear:both;
+    font-size: .7em;
+    color:#fff;
+    padding:.6em;
+    text-align: center;
+}
+
+
+
+
+.clearfix:after{
+    content: "";
+    diaplay:table;
+    clear:both;
+}
