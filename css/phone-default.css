@@ -25,6 +25,54 @@ header h2{
     margin-top:.75em;
 }
 
+header.social{
+
+margin: .75em 0;
+}
+
+header.social li{
+
+    width: 25%;
+    float: left;
+    border: 1px solid rgba(255, 255, 255,0.2);
+    background-color: rgba(255, 255, 255,0.1);
+}
+
+header.social li a{
+    display: block;
+    height: 30px;
+    margin:2px 0;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+}
+
+
+header.social li.facebook a {
+
+    background-position: center -30px;
+}
+
+header.social li.pinterest a {
+
+    background-position: center -90px;
+}
+
+header.social li.twitter a {
+
+    background-position: center 0px;
+}
+
+header.social li.plus a {
+
+    background-position: center -60px;
+}
+
+
+
+header.social li a span{
+    display: none;
+}
+
 
 #navWrapper{
     background-color: aqua;
@@ -79,8 +127,66 @@ footer{
     text-align: center;
 }
 
+footer a{
+    color: #ffffff;
+    
+}
 
 
+ul.social2{
+    width: 200px;
+    margin: 0 auto;
+
+
+}
+
+ul.social2 li span{
+display: none;
+}
+
+ul.social2 li a{
+    display: block;
+    background-image: url(../images/icons2.png);
+    width: 44px;
+    height: 44px;
+    margin: 3px;
+    float: left;
+}
+
+ul.social2 li.twitter a{
+    background-position: left 0px;
+}
+
+ul.social2 li.facebook a{
+    background-position: left -44px;
+}
+
+ul.social2 li.pinterest a{
+    background-position: left -132px;
+}
+
+ul.social2 li.plus a{
+    background-position: left -88px;
+}
+
+
+
+
+ul.social2 li.twitter a:hover{
+    background-position: right 0px;
+}
+
+ul.social2 li.facebook a:hover{
+    background-position: right -44px;
+}
+
+ul.social2 li.pinterest a:hover{
+    background-position: right -132px;
+}
+
+ul.social2 li.plus a:hover{
+    background-position: right -88px;
+}
 
 .clearfix:after{
     content: "";

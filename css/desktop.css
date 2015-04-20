@@ -3,10 +3,23 @@
     header,nav,.row,footer{
         max-width: 1140px;
         margin: 0 auto;
+        /*background-color: orange;*/
 
     }
 
+    header{
+        position: relative;
+    }
+
+
+    nav ul li{
+        width: auto;
+
+    }
+    
+
     nav ul li a{
+        padding: .2em 1.5em;
         transition: background 0.3s linear;
 
     }

@@ -1,5 +1,37 @@
 @media only screen and (min-width: 641px ){
 
+
+    #colorbar{
+        height:4px;
+    }
+
+
+    header.social{
+        position: absolute;
+        top: 2em;
+        right: 2%;
+    }
+
+    header.social li{
+        border: none;
+        background-color: transparent;
+    }
+
+
+    header.social li a{
+        width:44px;
+    }
+
+
+
+
+
+
+
+
+
+
+
     nav ul{
 
         padding:0;
